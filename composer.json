@@ -1,0 +1,61 @@
+{
+    "name": "datlechin/flarum-oauth-envato",
+    "description": "Envato oauth provider for Flarum.",
+    "keywords": [
+        "flarum",
+        "envato",
+        "oauth"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.2.0",
+        "fof/oauth": "^1.4"
+    },
+    "authors": [
+        {
+            "name": "Ngo Quoc Dat",
+            "email": "datlechin@gmail.com",
+            "role": "Developer",
+            "homepage": "https://ngoquocdat.dev"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/datlechin/flarum-oauth-envato",
+        "forum": "https://discuss.flarum.org/d/33285"
+    },
+    "autoload": {
+        "psr-4": {
+            "Datlechin\\OAuthEnvato\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Log in with Envato",
+            "category": "extension",
+            "icon": {
+                "image": "icon.svg"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": false,
+                "js": true,
+                "jsCommon": false,
+                "css": false,
+                "locale": true,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": true,
+                "typescript": true,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": true,
+                "styleci": false
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

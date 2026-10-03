@@ -2,13 +2,13 @@
 
 > **Read-only archive of released versions of datlechin/flarum-oauth-envato.** Not for installation: use [Packagist](https://packagist.org/packages/datlechin/flarum-oauth-envato) or the [upstream repository](https://github.com/datlechin/flarum-oauth-envato).
 
-**0** versions archived · Latest: [`0.1.0`](https://github.com/flarchive/datlechin-flarum-oauth-envato/tree/archive/v0.1.0) · License: `MIT` · Flarum: `^1.2.0`
+**1** versions archived · Latest: [`0.1.0`](https://github.com/flarchive/datlechin-flarum-oauth-envato/tree/archive/v0.1.0) · License: `MIT` · Flarum: `^1.2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `0.1.0` | 2023-08-26 | `^1.2.0` | [Browse](https://github.com/flarchive/datlechin-flarum-oauth-envato/tree/archive/v0.1.0) |
 
 Catalog entry: [packages/datlechin-flarum-oauth-envato.json](https://github.com/flarchive/archive-index/blob/main/packages/datlechin-flarum-oauth-envato.json)
 
